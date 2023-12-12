@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #B5503E;
+}
+
+.container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+
+nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.li-home {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.li-home a {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.li-home a:hover {
+    color: #FFFFFF;
+    transform: 0.5s ease-in-out;
+}
+
+.li-home a::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.li-home a:hover::after {
+    width: 100%;
+}
+
+.li-home a.selected::after {
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.banner .fade {
+    float: left;
+    width: 100%;
+    height: 450px;
+    background: rgb(60,60,60);
+    background: linear-gradient(180deg, rgba(60,60,60,0.41228991596638653) 0%, rgba(0,0,0,0.5579481792717087) 100%);
+}
+
+.banner .banner-img {
+    width: 100%;
+    height: 450px;
+    background-image: url(../imagens/banner-cofeitaria.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tortas-bolos {
+    width: 100%;
+    height: 586px;
+    background-color: #E9E9E9;
+}
+
+.tortas-bolos .titulo {
+    width: 400px;
+    height: auto;
+}
+
+/* Continuar paragrafo */
