@@ -155,3 +155,50 @@ nav {
     width: 100%;
     padding: 0 0 0 2%;
 }
+
+/* Seção Torta de Morango */
+
+.torta-morango {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.torta-morango .texto {
+    width: 50%;
+    height: 650.27px;
+    background-color: #B5503E;
+    padding: 0 2% 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.torta-morango .texto h1 {
+    font-size: 300%;
+}
+
+.torta-morango .img {
+    width: 100%;
+    height: 650.25px;
+    background-image: url("../imagens/img-torta-morango.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.torta-morango .img-wrapper {
+    width: 50%;
+    height: 650.25px;
+}
+
+.torta-morango img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
