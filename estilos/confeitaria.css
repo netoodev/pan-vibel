@@ -163,29 +163,29 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #B5503E;
 }
 
 
 .torta-morango .texto {
     width: 50%;
-    height: 650.27px;
-    background-color: #B5503E;
+    height: 220px;
     padding: 0 2% 0 0;
     text-align: center;
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
 .torta-morango .texto h1 {
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .torta-morango .img {
     width: 100%;
-    height: 650.25px;
+    height: 500px;
     background-image: url("../imagens/img-torta-morango.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -194,11 +194,122 @@ nav {
 
 .torta-morango .img-wrapper {
     width: 50%;
-    height: 650.25px;
+    height: 500px;
 }
 
 .torta-morango img {
     width: 100%;
     height: 100%;
     float: left;
+}
+
+.torta-morango p {
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* Seção Torta de Chocolate */
+
+.torta-chocolate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDB374;
+}
+
+.torta-chocolate .texto {
+    width: 50%;
+    height: 220px;
+    padding: 0 2% 0 0;
+    text-align: center;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.torta-chocolate .texto h1 {
+    font-size: 250%;
+}
+
+.torta-chocolate .img {
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagens/img-torta-chocolate.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.torta-chocolate .img-wrapper {
+    width: 50%;
+    height: 500px;
+}
+
+.torta-chocolate img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.torta-chocolate p {
+    width: 56%;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* Seção de Torta Trufada */
+
+.torta-trufada {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B5503E;
+}
+
+
+.torta-trufada .texto {
+    width: 50%;
+    height: 220px;
+    padding: 0 2% 0 0;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.torta-trufada .texto h1 {
+    font-size: 250%;
+}
+
+.torta-trufada .img {
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagens/img-torta-trufada.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.torta-trufada .img-wrapper {
+    width: 50%;
+    height: 500px;
+}
+
+.torta-trufada img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.torta-trufada p {
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: 300;
 }
