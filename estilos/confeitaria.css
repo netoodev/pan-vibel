@@ -314,6 +314,8 @@ nav {
     font-weight: 300;
 }
 
+/* Seção bolos */
+
 section.bolos {
     display: flex;
     justify-content: center;
@@ -356,21 +358,35 @@ section.bolos .texto p{
     font-size: 125%;
 }
 
-
-/* 
-.container-bolos {
+section.bolos .outras-opcoes-bolos {
     width: 100%;
+    padding: 0 7.20%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.container-bolos img {
-    width: 65.45%;
-    padding: 0 6.15%;
+section.bolos .opcoes-linha {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.bolos-elementos {
+section.bolos .bolo-opcao {
+    width: 50%;
     display: flex;
-    justify-content: ;
-} */
+    flex-direction: column;
+    align-items: center;
+}
+
+section.bolos .bolo-opcao p {
+    text-transform: uppercase;
+    width: 50%;
+    padding: 25px 0;
+    font-size: 137.5%;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Seção doces */
