@@ -130,7 +130,7 @@ nav {
     padding: 0 2% 0 0 ;
 }
 
-.tortas-bolos .texto .titulo {
+.tortas-bolos .texto .tortas-bolos-titulo {
     position: relative;
     left: -25px;
     width: 100%;
@@ -144,7 +144,7 @@ nav {
     text-align: justify;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 125%;
 }
 
 .tortas-bolos .img-wrapper {
@@ -313,3 +313,64 @@ nav {
     font-size: 1.5em;
     font-weight: 300;
 }
+
+section.bolos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    background-color: #E9E9E9;
+}
+
+
+section.bolos > img {
+    width: 65.45%;
+    padding: 0 6.15%;
+    margin: 0 auto;
+}
+
+section.bolos .container {
+    align-items: center;
+    padding: 52px 0;
+}
+
+section.bolos .texto {
+    width: 600px;
+    padding: 0 2% 0 0 ;
+}
+
+section.bolos .texto h1 {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 313%;
+    color: #B5503E;
+    text-transform: uppercase;
+}
+
+section.bolos .texto p{
+    width: 94%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 125%;
+}
+
+
+/* 
+.container-bolos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-bolos img {
+    width: 65.45%;
+    padding: 0 6.15%;
+}
+
+.bolos-elementos {
+    display: flex;
+    justify-content: ;
+} */
