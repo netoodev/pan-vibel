@@ -34,6 +34,11 @@ header {
     padding: 10px 0;
 }
 
+header img {
+    width: 85.25px;
+    height: 85.25px;
+}
+
 
 nav {
     padding-top: 40px;
@@ -468,4 +473,119 @@ section.bolos .bolo-opcao p {
     color: #FFFFFF;
     list-style-position: outside;
     text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 94px 10.28%;
+}
+
+footer .footer-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20.68%;
+}
+
+footer .endereco {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 26px;
+    width: 100%;
+}
+
+footer .endereco a {
+    padding-top: 10px;
+    font-size: 100%;
+    text-align: center;
+}
+
+footer .endereco a:visited {
+    color: #DB471B;
+}
+
+footer .elementos-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+footer .elementos-wrapper p {
+    width: 252.52px;
+    font-size: 100%;
+}
+
+footer .telefone {
+    width: 100%;
+    padding-bottom: 26px;
+}
+
+footer .email {
+    width: 100%;
+}
+
+footer .logo {
+    width: 11.40%;
+    height: 11.40%;
+}
+
+
+footer .links {
+    width: 242.23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+footer .links nav {
+    width: 242.23px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .li-home {
+    padding-bottom: 8px;
+}
+
+
+footer .li-home a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+footer .li-home a:hover {
+    color: #000;
+}
+
+footer .li-home a::after {
+    display: none;
+}
+
+footer .redes-sociais {
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer .copyright {
+    font-size: 75%;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
 }
