@@ -363,6 +363,57 @@ section.buffet-info {
     padding: 0 0 0 2%;
 }
 
+/* Seção Confeitaria */
+
+.confeitaria {
+    width: 100%;
+    background-color: #B5503E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confeitaria .container {
+    width: 90%;
+    padding: 100px 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.confeitaria .img-wrapper {
+    width: 700px;
+}
+
+.confeitaria > img {
+    width: 100%;
+    padding: 0 2% 0 0;
+}
+
+.confeitaria .texto {
+    width: 600px;
+    padding: 0 0 0 2% ;
+}
+
+.confeitaria .texto .confeitaria-titulo {
+    position: relative;
+    left: -25px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+
+.confeitaria .texto p {
+    width: 94%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 100%;
+    color: #FFFFFF;
+}
+
 
 /* Rodapé */
 
