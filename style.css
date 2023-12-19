@@ -114,6 +114,53 @@ nav {
     background-size: cover;
 }
 
+/* Section Buffet Info */
+
+section.buffet-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9E9E9;
+    padding: 0 10.07%;
+}
+
+.buffet-info-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 94px 0;
+}
+
+.buffet-info-single span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #515151;
+    font-size: 125%;
+}
+
+.buffet-info-single h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #515151;
+    font-size: 141.875%;
+}
+
+.buffet-info-single p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #515151;
+    font-size: 100%;
+}
+
+.divisor {
+    width: 1px;
+    height: 236.04px;
+    background-color: #A8A8A8;
+}
+
+
 /* Rodapé */
 
 footer {
