@@ -213,6 +213,70 @@ section.buffet-info {
 
 /* Seção Delivery */
 
+.delivery {
+    width: 100%;
+    background-color: #DDB374;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivery .container {
+    width: 90%;
+    padding: 100px 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.delivery .img-wrapper {
+    width: 700px;
+}
+
+.delivery > img {
+    width: 100%;
+    padding: 0 2% 0 0;
+}
+
+.delivery .texto {
+    width: 600px;
+    padding: 0 0 0 2% ;
+}
+
+.delivery .texto .delivery-titulo {
+    position: relative;
+    left: -25px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+
+.delivery .texto p {
+    width: 94%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 100%;
+    color: #000;
+}
+
+.delivery .texto .delivery-pedido p {
+    font-weight: 700;
+    font-size: 125%;
+    color: #B5503E;
+}
+
+.delivery-pedido .delivery-links {
+    width: 111.55px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 /* Rodapé */
 
