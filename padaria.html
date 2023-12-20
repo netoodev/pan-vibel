@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="padaria.css">
-    <title>Padaria</title>
-    
+    <title>Pan Vibel | Padaria</title>
+    <link rel="stylesheet" href="estilos/padaria.css">
+    <link rel="shortcut icon" href="imagens/logo-img.svg" type="image/x-icon">
 </head>
+
 <body>
 
     <header>
-        <div>
-            <img src="logo-img.png" alt="" class="logoIm">
+        <div class="container">
+            <div class="logo">
+                <img src="imagens/logo-img.svg" alt="Logo Pan Vibel">
+            </div>
+            <nav>
+                <li class="li-home"><a href="index.html">Home</a></li>
+                <li class="li-home"><a href="restaurante.html">Restaurante</a></li>
+                <li class="li-home"><a href="lanches.html">Lanches</a></li>
+                <li class="li-home"><a href="confeitaria.html">Confeitaria</a></li>
+                <li class="li-home"><a class="selected" href="padaria.html">Padaria</a></li>
+                <li class="li-home"><a href="contato.html">Contato</a></li>
+            </nav>
         </div>
-        
-        <div>
-            <ul class="home">
-                <li>Home</li>
-                <li>Restaurante</li>
-                <li>Lanches</li>
-                <li>Confeitaria</li>
-                <li>Padaria</li>
-                <li>contato</li>
-            </ul>
-        </div>
-
     </header>
 
 
     <main>
-        <div class="banner">
-            <img src="banner.png" alt="" class="imgBanner">
-        </div>
 
-        <div class="padariaPrincipal">
-            <section class="padaria">
-                <div class="tituloPadaria">
-                    <img src="Padaria.png" alt="" class="tituloPadariaimg">
-                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor ac quam sodales euismod quis vitae mauris. Sed interdum augue nisl, eget pharetra odio posuere id. Phasellus facilisis vitae risus in convallis.x</p>
-                </div> 
+        <section class="banner">
+            <div class="fade"></div>
+            <div class="banner-img"></div>
+            <div class="clear"></div>
+        </section>
 
-                <div>
-                    <img src="img-1.png" alt="imagem de pao" class="imgPadaria"> 
+        <section class="padaria">
+            <div class="container">
+                <div class="texto">
+                    <img class="padaria-titulo" src="imagens/padaria-titulo.svg" alt="Padaria">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor ac quam sodales euismod quis vitae mauris. Sed interdum augue nisl, eget pharetra odio posuere id. Phasellus facilisis vitae risus in convallis.</p>
                 </div>
-            </section>
-        </div>
-            
+                <div class="img-wrapper">
+                    <img src="imagens/padaria-img.svg" alt="Imagem de pães">
+                </div>
+            </div>
+        </section>
+
+        <section class="paes">
+            <div class="container">
+                <div class="paes-titulo">
+                    <img src="imagens/paes-titulo.svg" alt="Pães">
+                </div>
+                <div class="paes-wrapper">
+                    <img src="imagens/paes-img.svg" alt="Pães Franceses">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia.</p>
+                </div>
+                <div class="paes-wrapper">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa. Nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa.</p>
+                    <img src="imagens/paes-2-img.svg" alt="Pães doces">
+                </div>
+            </div>
+        </section>
+
+        <section class="bolachas">
+            <div class="container">
+                <div class="bolachas-titulo">
+                    <img src="imagens/bolachas-titulo.svg" alt="Bolachas">
+                </div>
+                <div class="bolachas-wrapper">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor ac quam sodales euismod quis vitae mauris. Sed interdum augue nisl, eget pharetra odio posuere id. Phasellus facilisis vitae risus in convallis.</p>
+                    <img src="imagens/bolachas-img.svg" alt="Bolachas no balcão">
+                </div>
+            </div>
+        </section>
+
+        <!-- 
         
         <div class="paoPrincipal">
             <section class="pao">
                      <div class="tituloPao">
-                         <img src="tiluloPaes.png" alt="" class="tiluloPaesimg">
+                         <img src="imagens/tiluloPaes.png" alt="" class="tiluloPaesimg">
                      </div>
 
                     <div class="paoFrances">
-                        <img src="pao frances.png" alt="" class="imgPaoFrances">
+                        <img src="imagens/pao frances.png" alt="" class="imgPaoFrances">
                         <p class="texto">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia. 
                         </p>
@@ -62,7 +93,7 @@
                     
                     <div class="paoDoce">
                         <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aut. Harum laudantium repellat expedita delectus voluptatum nulla, similique sapiente eaque! Eius omnis dolorem consectetur iusto quas excepturi aliquid sint autem.</p>
-                        <img src="pao doce.png" alt="" class="imgDoce">
+                        <img src="imagens/pao doce.png" alt="" class="imgDoce">
                     </div>
 
             </section> 
@@ -72,33 +103,69 @@
         <div class="bolachaPrincipal">
             <section class="bolacha">
                 <div class="tituloBolacha">
-                    <img src="bolachas.png" alt="" class="tituloBolachaimg">
+                    <img src="imagens/bolachas.png" alt="" class="tituloBolachaimg">
                     <p class="texto"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia, felis massa commodo ligula, nec mollis lectus felis sit amet mauris. Nunc vel tortor. Sed sem mauris, luctus at nisl suscipit, hendrerit commodo diam. Phasellus vestibulum, magna consequat fermentum lacinia.  </p>
 
                 </div> 
 
                 <div>
-                    <img src="img-4.png" alt="" class="imgBolacha">
+                    <img src="imagens/img-4.png" alt="" class="imgBolacha">
                 </div>
             </section>
-        </div> 
+        </div>  -->
     </main>
-    
-        <footer>
-            <section class="footerPrincial">
-                <ul class="rodape">
-                    <li><img src="footer1.png" alt=""></li>
-                     <li>
-                        <img src="logo-img.png" alt="" class="logoImgFooter" >
-                        <img src="footer2.png" alt="">
-                     </li>
-                
-                     <li>
-                        <img src="footer3.png" alt="">
-                        <img src="footer-social-media.png" alt="" >     
-                     </li>  
-                 </ul>
-            </section>
-        </footer>    
+    <footer>
+        <div class="footer-elements">
+            <div class="info">
+                <div class="endereco">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/endereco-icon.svg" alt="Endereço">
+                        <p>Rua Guanabara, 136 - Coqueiral, Recife - PE, 50790-000</p>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Pan+Vibel/@-8.0896861,-34.9675622,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab1c3c652cc8bf:0x54402642f30afa6d!8m2!3d-8.0896861!4d-34.9649873!16s%2Fg%2F11bzwnrrnb?entry=ttu"
+                        target="_blank">Abrir no Google Maps</a>
+                </div>
+                <div class="telefone">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/telefone-icon.svg" alt="Telefone">
+                        <p>(81) 99273-3670</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/email-icon.svg" alt="E-mail">
+                        <p>adm.padarias@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <img class="logo" src="imagens/logo-img.svg" alt="Logo Pan Vibel">
+            <div class="links">
+                <div class="sitemap">
+                    <nav>
+                        <ul>
+                            <li class="li-home"><a href="index.html">Home</a></li>
+                            <li class="li-home"><a href="lanches.html">Lanches</a></li>
+                            <li class="li-home"><a href="padaria.html">Padaria</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-home"><a href="restaurante.html">Restaurante</a></li>
+                            <li class="li-home"><a href="confeitaria.html">Confeitaria</a></li>
+                            <li class="li-home"><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="redes-sociais">
+                    <a href="https://api.whatsapp.com/message/VFENI5D3UI7BP1?autoload=1&app_absent=0"
+                        target="_blank"><img src="imagens/whatsapp-icon.svg" alt="Whatsapp"></a>
+                    <a href="https://www.instagram.com/pan.vibel/" target="_blank"><img src="imagens/instagram-icon.svg"
+                            alt="Instagram"></a>
+                    <a href="https://www.ifood.com.br/delivery/recife-pe/pan-vibel-tejipio/889a6610-3b65-4484-afde-e3a00f4880a6?utm_medium=ReserveGoogle"
+                        target="_blank"><img src="imagens/ifood-icon.svg" alt="Ifood"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2023 Pan Vibel Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
