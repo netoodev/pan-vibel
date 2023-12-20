@@ -273,6 +273,70 @@ nav {
     left: -90px;
 }
 
+/* Seção bebidas */
+
+.bebidas {
+    width: 100%;
+    background-color: #DDB374;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bebidas .container {
+    width: 90%;
+    padding: 68px 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.bebidas-titulo {
+    width: 55%;
+    text-align: left;
+}
+
+.bebidas-wrapper {
+    width: 100%;
+    padding-top: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bebidas .cardapio {
+    width: 550px;
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.bebidas .cardapio-single {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bebidas .cardapio-single h2 {
+    font-size: 205.25%;
+    font-weight: 700;
+    color: #B5503E;
+}
+
+.bebidas .cardapio-single p {
+    font-size: 205.25%;
+    font-weight: 300;
+    color: #000;
+}
+
+.bebidas .cardapio .cardapio-single:last-of-type {
+    padding-top: 58px;
+}
+
 
 /* 
 .home{
