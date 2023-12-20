@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Cabeçalho */
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #B5503E;
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+header img {
+    width: 85.25px;
+    height: 85.25px;
+}
+
+
+nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.li-home {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.li-home a {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.li-home a:hover {
+    color: #FFFFFF;
+    transform: 0.5s ease-in-out;
+}
+
+.li-home a::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.li-home a:hover::after {
+    width: 100%;
+}
+
+.li-home a.selected::after {
+    content: " ";
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+/* Banner */
+
+.banner .fade {
+    float: left;
+    width: 100%;
+    height: 450px;
+    background: rgb(60,60,60);
+    background: linear-gradient(180deg, rgba(60,60,60,0.41228991596638653) 0%, rgba(0,0,0,0.5579481792717087) 100%);
+}
+
+.banner .banner-img {
+    width: 100%;
+    height: 450px;
+    background-image: url(../imagens/banner-lanches.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Seção Lanches */
+
+.lanches {
+    width: 100%;
+    height: 586px;
+    background-color: #DDB374;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lanches .container {
+    width: 90%;
+    padding: 0px 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.lanches .texto {
+    width: 600px;
+    padding-left: 2%;
+}
+
+.lanches .texto .lanches-titulo {
+    position: relative;
+    left: -25px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+
+.lanches .texto p {
+    width: 94%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 125%;
+}
+
+.lanches .img-wrapper {
+    width: 700px;
+}
+
+.lanches img {
+    width: 100%;
+    padding-right: 2%;
+}
+
+
+/* 
+.home{
+    padding: 10px;
+    display: flex;
+}
+
+
+.logoIm{
+    padding: 10px;
+    width: 50px;
+}
+
+.lanchesPrincipal{
+background: #DDB374;
+padding: 50px 0;
+}
+
+.lanches{
+    width: 1000px;
+    padding: 20px;;
+    display: flex;
+    margin: auto;  
+}
+
+
+.lanchesPao {
+    width: 1000px;
+    text-align: center;
+}
+
+.tituloLanche{
+    width: 500px;
+}
+
+img{
+    width: 400px;
+    align-items: center;
+}
+
+.sanduichesPrincipal{
+    background:#EADFCE;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.batataImg{
+    width: 250px;
+}
+
+h2{
+    color: #B5503E;
+}
+
+.salgadosPrincipal{
+    padding: 50px 0;
+    background: #E9D4B4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+}
+
+.salgadosImg{
+    width: 400px;
+}
+
+.sucoImg{
+    padding: 20px;
+    width: 250px;
+}
+
+.bebidasPrincipal{
+    background: #DDB374;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ; 
+}
+.bebidas{
+    width: 300px;
+    justify-content: center;
+}
+
+.sucoFrutas{
+    padding: 20px;
+    text-align: justify;
+} */
+
+/* Rodapé */
+
+footer {
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 94px 10.28%;
+}
+
+footer .footer-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20.68%;
+}
+
+footer .endereco {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 26px;
+    width: 100%;
+}
+
+footer .endereco a {
+    padding-top: 10px;
+    font-size: 100%;
+    text-align: center;
+    color: #DB471B;
+}
+
+footer .endereco a:visited {
+    color: #DB471B;
+}
+
+footer .elementos-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+footer .elementos-wrapper p {
+    width: 252.52px;
+    font-size: 100%;
+}
+
+footer .telefone {
+    width: 100%;
+    padding-bottom: 26px;
+}
+
+footer .email {
+    width: 100%;
+}
+
+footer .logo {
+    width: 11.40%;
+    height: 11.40%;
+}
+
+
+footer .links {
+    width: 242.23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+footer .links nav {
+    width: 242.23px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .li-home {
+    padding-bottom: 8px;
+}
+
+
+footer .li-home a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+footer .li-home a:hover {
+    color: #000;
+}
+
+footer .li-home a::after {
+    display: none;
+}
+
+footer .redes-sociais {
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer .copyright {
+    font-size: 75%;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+
