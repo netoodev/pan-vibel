@@ -414,6 +414,57 @@ section.buffet-info {
     color: #FFFFFF;
 }
 
+/* Padaria */
+
+.padaria {
+    width: 100%;
+    background-color: #DDB374;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padaria .container {
+    width: 90%;
+    padding: 100px 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.padaria .texto {
+    width: 600px;
+    padding: 0 2% 0 0 ;
+}
+
+.padaria .texto .padaria-titulo {
+    position: relative;
+    left: -25px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+
+.padaria .texto p {
+    width: 94%;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 100%;
+    color: #000;
+}
+
+.padaria .img-wrapper {
+    width: 700px;
+}
+
+.padaria img {
+    width: 100%;
+    padding: 0 0 0 2%;
+}
+
 
 /* Rodapé */
 

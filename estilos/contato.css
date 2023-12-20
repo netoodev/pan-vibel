@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #B5503E;
+
+}
+
+
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 15px;
+
+}
+
+.menu li a {
+    margin-left: 15px;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media(max-width: 425px) {
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100px;
+        text-align: center;
+
+    }
+
+    .menu {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .menu li {
+        margin-left: 0;
+    }
+
+    .menu a {
+        padding: 20px;
+        display: block;
+    }
+
+}
+
+section{
+    background-color: #AFAFAF;
+    margin: 0;
+}
+
+
+.container-endereco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.container-endereco p{
+    width: 200px;
+    text-align: justify;
+}
+.container-endereco a{
+    color: #DB471B;
+}
+i{
+    color: #DB471B;
+    display: inline-block;
+    }
+
+.container-pedido{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        
+}
+
+.icones-pedido{
+    padding: 30px;
+}
+
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.container h3{
+    padding: 15px;
+    color: #B5503E;
+}
+.container td{
+    padding-right: 50px;
+    margin: 5px;
+  
+}
+
+.fale-conosco{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #DDB374;
+padding: 50px;
+    
+}
+.fale-conosco h2{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.fale-conosco p{
+ 
+    padding-bottom: 20px;
+}
+
+form{
+    text-align: center;
+    background-color: #DDB374;
+}
+
+.nome{
+    width: 326px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.email-telefone{
+    width: 160px
+}
