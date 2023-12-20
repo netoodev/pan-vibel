@@ -1,40 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contao</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/contato.css">
-    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <title>Pan Vibel | Contato</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="shortcut icon" href="imagens/logo-img.svg" type="image/x-icon">
 </head>
 
 <body>
-    <header class="header">
 
-        <img src="Images/logo-img.svg">
-        <nav>
-            <ul class=" menu">
-                <li><a href="">Home</a></li>
-                <li><a href="restaurante.html">Restaurante</a></li>
-                <li><a href="">Lanches</a></li>
-                <li><a href="">Confeitaria</a></li>
-                <li><a href="">Padaria</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imagens/logo-img.svg" alt="Logo Pan Vibel">
+            </div>
+            <nav>
+                <li class="li-home"><a href="index.html">Home</a></li>
+                <li class="li-home"><a href="restaurante.html">Restaurante</a></li>
+                <li class="li-home"><a href="lanches.html">Lanches</a></li>
+                <li class="li-home"><a href="confeitaria.html">Confeitaria</a></li>
+                <li class="li-home"><a href="padaria.html">Padaria</a></li>
+                <li class="li-home"><a class="selected" href="contato.html">Contato</a></li>
+            </nav>
+        </div>
     </header>
 
     <main>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.11571238493!2d-34.967562225788335!3d-8.089680780891426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1c3c652cc8bf%3A0x54402642f30afa6d!2sPan%20Vibel!5e0!3m2!1spt-BR!2sbr!4v1702996715243!5m2!1spt-BR!2sbr"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="100%" height="450" style="border-color: #E9E9E9;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <section class="contato">
+            <div class="container">
+                <div class="enderecos">
+                    <div class="endereco-single">
+                        <div class="elementos-wrapper">
+                            <img src="imagens/endereco-icon.svg" alt="Endereço">
+                            <p>Rua Guanabara, 136 - Coqueiral, Recife - PE, 50790-000</p>
+                        </div>
+                        <a href="https://www.google.com/maps/place/Pan+Vibel/@-8.0896861,-34.9675622,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab1c3c652cc8bf:0x54402642f30afa6d!8m2!3d-8.0896861!4d-34.9649873!16s%2Fg%2F11bzwnrrnb?entry=ttu" target="_blank">Abrir no Google Maps</a>
+                    </div>
+                    <div class="endereco-single">
+                        <div class="elementos-wrapper">
+                            <img src="imagens/endereco-icon.svg" alt="Endereço">
+                            <p>R. Quatro de Outubro - Cavaleiro, Jaboatão dos Guararapes - PE, 54210-320</p>
+                        </div>
+                        <a href="https://maps.app.goo.gl/KPMeS8YJeFNxrHHSA" target="_blank">Abrir no Google Maps</a>
+                    </div>
+                </div>
+                <div class="pedidos">
+                    <h1>Gostou? Faça Já Seu pedido!</h1>
+                    <div class="pedidos-links">
+                        <a href="https://api.whatsapp.com/message/VFENI5D3UI7BP1?autoload=1&app_absent=0" target="_blank"><img src="imagens/whatsapp-icon.svg" alt="Whatsapp"></a>
+                        <a href="https://www.instagram.com/pan.vibel/" target="_blank"><img src="imagens/instagram-icon.svg" alt="Instagram"></a>
+                        <a href="https://www.ifood.com.br/delivery/recife-pe/pan-vibel-tejipio/889a6610-3b65-4484-afde-e3a00f4880a6?utm_medium=ReserveGoogle" target="_blank"><img src="imagens/ifood-icon.svg" alt="Ifood"></a>
+                    </div>
+                </div>
+                <div class="contate-nos">
+                    <h1>Contate-nos</h1>
+                    <div class="contato-elementos">
+                        <div class="contato-single">
+                            <img src="imagens/telefone-icon.svg" alt="Telefone">
+                            <p>(81) 99273-3670</p>
+                        </div>
+                        <div class="contato-single">
+                            <img src="imagens/email-icon.svg" alt="E-mail">
+                            <p>adm.padarias@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-infos">
+                    <div class="info">
+                        <h2>Nossas Unidades</h2>
+                        <div class="info-detalhes">
+                            <p>Rua Guanabara, 136 - Coqueiral, Recife - PE, 50790-000</p>
+                            <p>(81) 99273-3670</p>
+                        </div>
+                        <div class="info-detalhes">
+                            <p>R. Quatro de Outubro - Cavaleiro, Jaboatão dos Guararapes - PE, 54210-320</p>
+                            <p>(81) 99273-3670</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h2>Horário de funcionamento</h2>
+                        <div class="info-detalhes">
+                            <span class="dia">segunda-feira</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">terça-feira</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">quarta-feira</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">quinta-feira</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">sexta-feira</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">sábado</span>
+                            <span class="hora">06:00-21:00</span>
+                        </div>
+                        <div class="info-detalhes">
+                            <span class="dia">domingo</span>
+                            <div class="info-detalhes-wrapper">
+                                <span class="hora">06:00-21:00</span>
+                                <span class="hora">16:00-20:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <h2>Redes sociais</h2>
+                        <div class="info-detalhes">
+                            <a href="https://www.ifood.com.br/delivery/recife-pe/pan-vibel-tejipio/889a6610-3b65-4484-afde-e3a00f4880a6?utm_medium=ReserveGoogle" target="_blank">
+                                <img src="imagens/ifood-icon.svg" alt="Ifood">
+                                <span>Ifood</span>
+                            </a>
+                        </div>
+
+                        <div class="info-detalhes">
+                            <a href="https://www.instagram.com/pan.vibel/" target="_blank">
+                                <img src="imagens/instagram-icon.svg" alt="Instagram">
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+
+                        <div class="info-detalhes">
+                            <a href="https://api.whatsapp.com/message/VFENI5D3UI7BP1?autoload=1&app_absent=0" target="_blank">
+                                <img src="imagens/whatsapp-icon.svg" alt="Whatsapp">
+                                <span>Whatsapp</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="container">
+                <div class="form-titulo">
+                    <h1>Fale conosco</h1>
+                    <p>Para sugestões, críticas ou elogios, sinta-se à vontade para nos enviar uma mensagen</p>
+                </div>
+                <form>
+                    <input type="text" placeholder="Nome*" required>
+                    <div class="w50">
+                        <input type="email" placeholder="E-mail*" required>
+                        <input type="tel" placeholder="Telefone*" required>
+                    </div>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Comentário..."></textarea>
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
 
 
-        <section>
+        <!-- <section>
             <div class="container-endereco">
                 <div class="localizacao1">
                     <i class="fas fa-map-marker-alt"></i>
@@ -59,7 +192,7 @@
                 <div class="icones-pedido">
                     <i class="fab fa-whatsapp"></i>
                     <i class="fab fa-instagram"></i>
-                    <!-- <img src="Images/simple-icons_ifood.png" alt=""> -->
+                    <img src="Images/simple-icons_ifood.png" alt="">
                 </div>
 
                 <h2>Contate-nos</h2>
@@ -158,10 +291,59 @@
             <textarea name="comentario" id="coemtnario" cols="31" rows="5">Comentário</textarea> <br>
         <button>Enviar</button>           
 
-        </form>
+        </form> -->
 
 
     </main>
+
+    <footer>
+        <div class="footer-elements">
+            <div class="info">
+                <div class="endereco">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/endereco-icon.svg" alt="Endereço">
+                        <p>Rua Guanabara, 136 - Coqueiral, Recife - PE, 50790-000</p>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Pan+Vibel/@-8.0896861,-34.9675622,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab1c3c652cc8bf:0x54402642f30afa6d!8m2!3d-8.0896861!4d-34.9649873!16s%2Fg%2F11bzwnrrnb?entry=ttu" target="_blank">Abrir no Google Maps</a>
+                </div>
+                <div class="telefone">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/telefone-icon.svg" alt="Telefone">
+                        <p>(81) 99273-3670</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="elementos-wrapper">
+                        <img src="imagens/email-icon.svg" alt="E-mail">
+                        <p>adm.padarias@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <img class="logo" src="imagens/logo-img.svg" alt="Logo Pan Vibel">
+            <div class="links">
+                <div class="sitemap">
+                    <nav>
+                        <ul>
+                            <li class="li-home"><a href="index.html">Home</a></li>
+                            <li class="li-home"><a href="lanches.html">Lanches</a></li>
+                            <li class="li-home"><a href="padaria.html">Padaria</a></li>
+                        </ul>
+                        <ul>
+                            <li class="li-home"><a href="restaurante.html">Restaurante</a></li>
+                            <li class="li-home"><a href="confeitaria.html">Confeitaria</a></li>
+                            <li class="li-home"><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="redes-sociais">
+                    <a href="https://api.whatsapp.com/message/VFENI5D3UI7BP1?autoload=1&app_absent=0" target="_blank"><img src="imagens/whatsapp-icon.svg" alt="Whatsapp"></a>
+                    <a href="https://www.instagram.com/pan.vibel/" target="_blank"><img src="imagens/instagram-icon.svg" alt="Instagram"></a>
+                    <a href="https://www.ifood.com.br/delivery/recife-pe/pan-vibel-tejipio/889a6610-3b65-4484-afde-e3a00f4880a6?utm_medium=ReserveGoogle" target="_blank"><img src="imagens/ifood-icon.svg" alt="Ifood"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2023 Pan Vibel Todos os direitos reservados</p>
+    </footer>
 
 
 
