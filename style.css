@@ -105,14 +105,101 @@ nav {
     background: linear-gradient(180deg, rgba(60,60,60,0.41228991596638653) 0%, rgba(0,0,0,0.5579481792717087) 100%);
 }
 
+.slider{
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 400px;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    position: relative;
+    transition: 2s;
+}
+
 .slide-img {
     width: 100%;
     height: 580px;
-    background-image: url(imagens/slide-home-1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.img-1{
+    background-image: url(imagens/slide-home-1.svg);
+}
+
+.img-2 {
+    background-image: url(imagens/banner-rest.svg);    
+}
+
+.img-3 {
+    background-image: url(imagens/banner-lanches.svg);    
+}
+
+.img-4 {
+    background-image: url(imagens/banner-cofeitaria.svg);    
+}
+
+.img-5 {
+    background-image: url(imagens/banner-padaria.svg);
+}
+
+
+.slides input{
+    display: none;
+}
+
+.manual-navigation{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #DDB374;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 25px;
+}
+
+.manual-btn:hover{
+    background-color: #DDB374;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
 
 /* Section Buffet Info */
 
